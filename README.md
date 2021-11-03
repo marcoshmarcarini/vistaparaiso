@@ -3,6 +3,7 @@ Hotsite criado para a captação de Leads para o empreendimento Vista Paraiso.
 
 ### Instalação
 $ npm init
+
 $ npm install next react react-dom
 
 #### Altere o arquivo package json
