@@ -1,4 +1,4 @@
-# Vista Paraiso
+# Vista Paraíso
 
 Hotsite criado para a captação de Leads para o empreendimento Vista Paraiso.
 
