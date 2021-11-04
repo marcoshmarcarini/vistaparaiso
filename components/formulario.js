@@ -17,10 +17,10 @@ import {useState} from 'react'
 
     return(
         <>
-            <div className="container mt-5 area-form">
+            <div className="container mt-5 mb-5 area-form">
                 <Form noValidate validated={validated} onSubmit={handleSubmit} className="formulario">
                     <Row className="mb-3">
-                        <Form.Group as={Col} controlId="validationCustom01">
+                        <Form.Group as={Col} md="6" controlId="validationCustom01">
                         <Form.Label>Nome</Form.Label>
                         <Form.Control
                             required
@@ -30,7 +30,7 @@ import {useState} from 'react'
                         />
                         <Form.Control.Feedback>Correto!</Form.Control.Feedback>
                         </Form.Group>
-                        <Form.Group as={Col}  controlId="validationCustom02">
+                        <Form.Group as={Col} md="6" controlId="validationCustom02">
                         <Form.Label>Sobrenome</Form.Label>
                         <Form.Control
                             required
@@ -42,7 +42,7 @@ import {useState} from 'react'
                         </Form.Group> 
                     </Row>
                     <Row className="mb-3">
-                        <Form.Group as={Col}  controlId="validationCustomUsername">
+                        <Form.Group as={Col} md="6" controlId="validationCustomUsername">
                             <Form.Label>E-mail</Form.Label>
                                 <InputGroup hasValidation>
                                     <Form.Control
@@ -56,17 +56,21 @@ import {useState} from 'react'
                                     </Form.Control.Feedback>
                                 </InputGroup>
                         </Form.Group>
-                        <Form.Group as={Col}  controlId="validationCustom03">
+                        <Form.Group as={Col} md="6" controlId="validationCustom03">
                         <Form.Label>Celular</Form.Label>
                         <Form.Control type="text" placeholder="(xx) xxxxx-xxxx" required id="cel" />
+                        
                         <Form.Control.Feedback type="invalid">
                             Insira o seu número de telefone
                         </Form.Control.Feedback>
                         </Form.Group>
                     </Row>
                     
-                    <Button type="submit">Enviar</Button>
+                    <Button type="submit" className="btn-enviar">Enviar</Button>
                 </Form>
+            </div>
+            <div>
+                <hr className="linha-form"/>
             </div>
         </>
     )

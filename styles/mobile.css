@@ -1,0 +1,65 @@
+/*Dispositivos até 1200px*/
+
+@media(max-width:1200px){
+    .area-text-imagem{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .texto-um{
+        margin: auto;
+    }
+    .texto-um h2{
+        text-align: center;
+    }
+}
+
+
+/*Dispositivos até 1270px*/
+
+@media (max-width: 1270px){
+    .vantagens-principal{
+        display: none;
+    }
+    .vantagens-principal-mobile{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .vantagens{
+        z-index: 2;
+        transform: translateY(-1300px);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .texto-vantagens{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .area-cards{
+        z-index: 2;
+        transform: translateY(-1300px);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: auto;
+    }
+    .primeiros-cards{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .bk-mobile{
+        z-index: 1;
+    }
+    
+}

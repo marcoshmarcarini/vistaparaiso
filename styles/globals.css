@@ -1,19 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 /* Formatação do Formulário */
 
 .area-form{
+   max-width: 600px !important;
    display: flex;
-   
-   align-content: center;
+   background-color: #ccc;
+   padding: 15px;
+   margin: auto;
+   border-radius: 15px;
 }
 .formulario{
-   margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
     margin-left: auto;
     margin-right: auto;
+    max-width: 500px;
 }
+.btn-enviar{
+    background-color:blueviolet !important;
+    border: none !important;
+    width: 200px !important;
+    align-content: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+/*Area da Imagem e textos depois do Primeiro Carrossel*/
+
+.area-text-imagem{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.texto-um{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: justify;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.imagem-01{
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Vantagens */
+
+/* Alterando o comportamento das vantagens dentro da imagem de fundo. */
+.vantagens-principal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 800px;
+    background-image: url('../public/images/bk-vantagens.png');
+    background-repeat: no-repeat;
+    color: #ffffff;
+    margin: auto;
+}
+
+.vantagens{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    margin-left: auto;
+}
+
+.texto-vantagens{
+    margin-top: 200px;
+    
+}
+
+.texto-vantagens-foco{
+    font-size: 25px;
+}
+
+.area-cards{
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+    margin-right: auto;
+}
+.primeiros-cards{
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.segundo-card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 25px;
+    
+}
+
+.vantagens-principal-mobile{
+    display: none;
+}
+
