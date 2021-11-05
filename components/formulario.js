@@ -22,6 +22,7 @@ import Script from 'next/script';
                 <hr className="linha-form"/>
             </div>
             <div className="container mt-5 mb-5 area-form">
+                <h2>Lorem ipsum</h2>
                 <Form action="https://formsubmit.co/junior@comconteudo.com.br" method="POST" name="mc-embedded-subscribe-form" class="validate" target="_blank" noValidate validated={validated} onSubmit={handleSubmit} className="formulario">
                     <Row className="mb-3">
 
