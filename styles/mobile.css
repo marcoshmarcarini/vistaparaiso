@@ -31,7 +31,6 @@
     }
     .vantagens{
         z-index: 2;
-        transform: translateY(-1300px);
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -42,10 +41,10 @@
         flex-direction: column;
         flex-wrap: wrap;
         margin: auto;
+        color: #000000;
     }
     .area-cards{
         z-index: 2;
-        transform: translateY(-1300px);
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -57,9 +56,26 @@
         margin: 0;
         padding: 0;
     }
+
+    .segundo-card{
+        margin: 50px;
+        padding: 0;
+    }
     
     .bk-mobile{
         z-index: 1;
+    }
+
+    .linha-form{
+        max-width: 200px;
+        text-align: center;
+        margin: auto;
+        padding: 2px;
+        border-radius: 2px;
+    }
+
+    .area-form{
+        max-width: 400px !important;
     }
     
 }

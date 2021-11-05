@@ -18,6 +18,9 @@ import Script from 'next/script';
 
     return(
         <>
+            <div>
+                <hr className="linha-form"/>
+            </div>
             <div className="container mt-5 mb-5 area-form">
                 <Form action="https://formsubmit.co/junior@comconteudo.com.br" method="POST" name="mc-embedded-subscribe-form" class="validate" target="_blank" noValidate validated={validated} onSubmit={handleSubmit} className="formulario">
                     <Row className="mb-3">
@@ -57,9 +60,7 @@ import Script from 'next/script';
                     <Button type="submit" className="btn-enviar">Enviar</Button>
                 </Form>
             </div>
-            <div>
-                <hr className="linha-form"/>
-            </div>
+            
 
             <Script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></Script>
             <Script type='text/javascript' src="../scripts/script-email.js"/>

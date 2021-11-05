@@ -5,7 +5,6 @@ function VantagensMobile(){
     return(
         <>
         <div className="vantagens-principal-mobile mb-5 mt-5">
-            <Image src="/images/bk-vantagens-mb.png" width={800} height={1600} className="bk-mobile" />
             <div className="vantagens">
                 <div className="texto-vantagens">
                     <h2>Aenean tempus lorem urna <br/> at rutrum ligula hendrerit vel.</h2>

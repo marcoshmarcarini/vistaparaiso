@@ -9,33 +9,7 @@ body{
 }
 
 
-/* Formatação do Formulário */
 
-.area-form{
-   max-width: 600px !important;
-   display: flex;
-   background-color: #ccc;
-   padding: 15px;
-   margin: auto;
-   border-radius: 15px;
-}
-.formulario{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: auto;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 500px;
-}
-.btn-enviar{
-    background-color:blueviolet !important;
-    border: none !important;
-    width: 200px !important;
-    align-content: center !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
 
 
 /*Area da Imagem e textos depois do Primeiro Carrossel*/
@@ -114,5 +88,43 @@ body{
 
 .vantagens-principal-mobile{
     display: none;
+}
+
+
+/* Formatação do Formulário */
+
+.area-form{
+    max-width: 600px !important;
+    display: flex;
+    background-color: #ccc;
+    padding: 15px;
+    margin: auto;
+    border-radius: 15px;
+ }
+ .formulario{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     margin: auto;
+     margin-left: auto;
+     margin-right: auto;
+     max-width: 500px;
+ }
+ .btn-enviar{
+     background-color:blueviolet !important;
+     border: none !important;
+     width: 200px !important;
+     align-content: center !important;
+     margin-left: auto !important;
+     margin-right: auto !important;
+ }
+
+
+.linha-form{
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    padding: 2px;
+    border-radius: 2px;
 }
 
