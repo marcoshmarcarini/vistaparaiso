@@ -28,13 +28,13 @@ import Script from 'next/script';
 
                         <Form.Group as={Col} md="6" controlId="validationCustom01">
                             <Form.Label>Nome</Form.Label>
-                            <Form.Control required type="text" placeholder="Nome" defaultValue="" name="FNAME" />
+                            <Form.Control required type="text" placeholder="Nome" defaultValue="" name="NOME" />
                             <Form.Control.Feedback>Correto!</Form.Control.Feedback>
                         </Form.Group>
 
                         <Form.Group as={Col} md="6" controlId="validationCustom02">
                             <Form.Label>Sobrenome</Form.Label>
-                            <Form.Control required type="text" placeholder="Sobrenome" defaultValue="" name="FSUBNAME" />
+                            <Form.Control required type="text" placeholder="Sobrenome" defaultValue="" name="SOBRENOME" />
                             <Form.Control.Feedback>Correto!</Form.Control.Feedback>
                         </Form.Group> 
                     </Row>
@@ -51,7 +51,7 @@ import Script from 'next/script';
 
                         <Form.Group as={Col} md="6" controlId="validationCustom03">
                             <Form.Label>Celular</Form.Label>
-                            <Form.Control type="text" placeholder="(xx) xxxxx-xxxx" required id="cel" name="PHONE"/>
+                            <Form.Control type="text" placeholder="(xx) xxxxx-xxxx" required id="cel" name="CELULAR"/>
                             <Form.Control.Feedback type="invalid">
                                 Insira o seu número de telefone
                             </Form.Control.Feedback>
